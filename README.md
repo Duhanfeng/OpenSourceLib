@@ -14,11 +14,11 @@
 
 ##### UI
 
-| 库名      | 简介           | 地址                                   |
-| --------- | -------------- | -------------------------------------- |
-| imgui     | 开源跨平台UI库 | https://github.com/ocornut/imgui       |
-| wxWidgets | 开源跨平台UI库 | https://github.com/wxWidgets/wxWidgets |
-|           |                |                                        |
+| 库名      | 简介                                                         | 地址                                   |
+| --------- | ------------------------------------------------------------ | -------------------------------------- |
+| imgui     | 开源跨平台UI库(20231127补充: 适用于OpenGL这类侧重于前台渲染的场景) | https://github.com/ocornut/imgui       |
+| wxWidgets | 开源跨平台UI库                                               | https://github.com/wxWidgets/wxWidgets |
+|           |                                                              |                                        |
 
 
 
@@ -32,7 +32,7 @@
 | drogon      | 基于 C++14/17 的 HTTP 应用程序框架 | https://github.com/drogonframework/drogon |
 | crow        | 用于 Web 的 C++ 微框架             | https://github.com/ipkn/crow              |
 | oatpp       | C++ 的现代 Web 框架                | https://github.com/oatpp/oatpp            |
-| hpsocket    | 高性能网络框架                     | https://github.com/ldcsaa/HP-Socket       |
+| hpsocket    | 高性能网络框架(推荐)               | https://github.com/ldcsaa/HP-Socket       |
 | libzmq      | 轻量级消息传递内核                 | https://github.com/zeromq/libzmq          |
 |             |                                    |                                           |
 
@@ -49,6 +49,17 @@
 | pugixml                     | C++ XML 解析器     | https://github.com/zeux/pugixml                |
 | yaml-cpp                    | yaml解析器         | https://github.com/jbeder/yaml-cpp             |
 |                             |                    |                                                |
+
+
+
+##### 本地文件操作
+
+| 库名                  | 简介                          | 地址                                                |
+| --------------------- | ----------------------------- | --------------------------------------------------- |
+| portable-file-dialogs | 跨平台单文件的文件对话框库    | https://github.com/samhocevar/portable-file-dialogs |
+| stb                   | 用于本地图像的加载/写入       | https://github.com/nothings/stb                     |
+| LAStools              | 可处理 LiDAR 数据文件的工具集 | https://github.com/LAStools/LAStools                |
+|                       |                               |                                                     |
 
 
 
@@ -86,6 +97,8 @@
 | Ceres      | 大规模的非线性优化库         | https://github.com/ceres-solver/ceres-solver          |
 | wykobi     | 2D几何计算库                 | https://www.wykobi.com/                               |
 | RansacLib  | RANSAC算法                   | https://github.com/tsattler/RansacLib                 |
+| FLANN      | 快速近似最近邻搜索库         | https://github.com/flann-lib/flann                    |
+| glm        | 针对于opengl的数学库         | https://glm.g-truc.net/0.9.8/index.html               |
 |            |                              |                                                       |
 
 
